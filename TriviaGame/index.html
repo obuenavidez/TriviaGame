@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CHICAGO BULLS TRIVIA </title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<script type="text/javascript">
+
+	window.addEventListener("load" , function() {
+		var loadscreen = document.getElementById("loadscreen");
+		//document.body.removeChild(loadscreen);
+
+	});
+
+</script>
+
+
+
+
+
+<body>
+	
+<div   id="loadscreen">  
+		<div > <img src = "images/bulls2.jpg" width = "800px" height ="800px"  id="loadscreen2" >
+			<img src = "images/bulls3.jpg" width = "800px" height ="800px" 
+			id="loadscreen3">
+			<img src = "images/bulls.jpg" width = "800px" height ="800px"  id="loadscreen4" >
+			<img src = "images/bulls4.jpg" width = "800px" height ="800px" 
+			id="loadscreen5">
+			
+			
+
+		</div>
+		 
+
+</div>
+	
+
+<div class= "grid">
+	<div id="quiz">
+		<h1>BULLS TRIVIA</h1>
+		<hr style="margin-bottom: 20px">
+
+		<p id="question"></p>
+
+		<div class="buttons">
+
+			<button id="btn0"><span id="choice0"></span></button>
+			<button id="btn1"><span id="choice1"></span></button>
+			<button id="btn2"><span id="choice2"></span></button>
+			<button id="btn3"><span id="choice3"></span></button>
+
+		</div>
+		<div>
+
+			<p id= "skip" onclick = " myfunction() "> SKIP  >> </p>
+
+		<div>
+
+		<hr style="margin-top: 10px">
+
+
+		<footer>
+
+			<p id="progress"> Questions x of y</p>
+
+			<div id = "wrapper">
+
+      				<div id="timer" class = "display" >00:00</div>
+      		</div>
+
+
+		
+			
+		     <p id="copyright"> Copyrighted: 
+			 Oscar D. Buenavidez Jr.</p>
+		
+			
+
+		</footer>
+
+	</div>
+
+
+
+</div>
+
+
+
+
+<!--
+<script src="stopwatch.js"></script>
+-->
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+<script src = "timer.js"></script>
+<script src="question.js"></script>
+<script src="quiz_controller.js"></script>
+<script src="app.js"></script>
+
+<script>
+
+$ (function() {
+	
+   
+    	$("#loadscreen2").show(1000).slideUp(1000).hide(1000);
+		$("#loadscreen3").toggle(1000).slideDown(1000).hide(1000);
+		$("#loadscreen4").toggle(1000).slideDown(1000).hide(1000);
+		$("#loadscreen3").toggle(1000).toggle(1000).hide(1000);
+     	
+		$("#loadscreen2").toggle(1000).toggle(1000).hide(1000);
+     	$("#loadscreen5").hide();
+     	
+    // delay(1000);
+    // alert();
+
+
+
+
+  
+    //$("#loadscreen").hide(1000) ;
+    
+
+    //$("#loadscreen4").toggle(5000).delay(1000) ;
+    //$("#loadscreen4").hide(1) ;
+
+    //$("#loadscreen5").show(3000).toggle(3000).hide(1000) ;
+   // $("#loadscreen5").slide(3000).delay(1000) ;
+    //$("#loadscreen5").hide(3000) ;
+
+    
+
+    //$("#loadscreen3").slideDown(5000).delay(10000);
+
+
+});
+
+
+
+
+ var skipcounter = 0;
+ 
+
+ //skip.onclick =
+
+function myfunction(){
+//var skip = document.getElementById("skip");
+//skip.innerHTML  = "hello";
+ populate();
+ skipcounter++;
+ 
+ 
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
