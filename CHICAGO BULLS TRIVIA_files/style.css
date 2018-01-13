@@ -70,7 +70,7 @@ img {
 
 .grid{
 	width:600px;
-	height:550px;
+	height:500px;
 	margin:0 auto;
 	background-color: white;
 	padding: 10px 50px 50px 50px;
@@ -166,19 +166,7 @@ img {
 
 }
 
-#skip {
-	text-align : right;
-	
-}
 
-
-#skip:hover {
-	cursor:pointer;
-	color : red;
-	 
-
-
-}
 
 
 
@@ -210,8 +198,6 @@ img {
 
    border-radius: 30px
 	box-shadow: 10px 10px 5px #cbcbcb;
-
-
 	
 
 }

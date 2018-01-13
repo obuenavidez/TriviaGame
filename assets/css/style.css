@@ -1,0 +1,260 @@
+body{
+
+	background-color: #E8E8E8;
+
+}
+
+#loadscreen {
+	opacity: .9;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	width: 600px;
+	height: 500px;
+	padding: 10px 0px 0px 0px;
+	align-content: : center;
+	background-image: 
+	margin-top: 200px;
+	margin-left: 300px;
+}
+
+/*
+img {
+
+	opacity: .8;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	width: 600px;
+	height: 500px;
+	padding: 75px 150px 0px 50px;
+	align-content: : center;
+	background-image: 
+	margin-top: 200px;
+	margin-left: 300px;
+}
+*/
+
+	/*background-image: "bulls.jpg"
+
+	
+
+}
+/*
+
+#loading{
+	color: #FFF;
+	width: 100%px
+	height:24px;
+	 
+*/
+
+}
+
+.left {
+	height: : 5px;
+	width: 400px;
+	margin:0 auto;
+	background-color: green;
+	padding: 10px 10px 10px 10px;
+	border-radius: 50px
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 10px 5px #cbcbcb;
+	text-align: center;
+
+
+
+
+
+}
+
+.grid{
+	width:600px;
+	height:600px;
+	margin:0 auto;
+	background-color: white;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb;
+
+}
+
+.grid h1 {
+	font-family: sans-serif;
+	background-color : #57636e;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	padding: 2px 0px;
+	border-radius: 50px;
+
+}
+
+.grid #question{
+	font-family: sans-serif;
+	background: white;
+	font-size: 30px;
+	text-align: center;
+	/*color: #5e6772;*/
+	color : black;
+	
+}
+
+.buttons{
+	margin-top: 30px;
+
+
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn6 , #btn4{
+	text-align: center;
+	background-color: #778897;
+	height:40px;
+	width: 250px;
+	font-size: 20px;
+	color:#fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 10px 40px 10px 0px;
+	padding: 10px 10px;
+
+
+}
+
+ #btn6 {
+	text-align: center;
+	background-color: #778897;
+	height:40px;
+	width: 250px;
+	font-size: 15px;
+	color:#fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 10px 40px 10px 0px;
+	padding: 10px 10px;
+
+
+}
+
+
+
+
+#btnskip {
+	text-align: center;
+	background-color: #778897;
+	height:15px;
+	width: 100px;
+	font-size: 15px;
+	color:#fff;
+	border: 1px solid #1d3c6a;
+	border-radius: 5px;
+	margin: 10px 40px 10px 0px;
+	padding: 10px 10px;
+	vertical-align: middle;
+
+
+}
+
+
+
+
+#progress {
+	color:#2b2b2b;
+	font-size: 18px;
+	text-align: center;
+
+
+}
+
+#copyright {
+	color:blue;
+	font-size: 10px;
+	text-align: center;
+	object-position: fixed;
+
+
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover,  #btn6:hover, #btn3:hover , #btn4:hover{
+	background-color:red;
+	cursor:pointer;
+
+
+}
+
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn6:focus, #btn3:focus, #btn4:focus{
+	outline: 0;
+
+
+}
+
+
+#btnskip:focus {
+	outline: 0;
+}
+
+#btnskip:hover {
+	background-color:red;
+	cursor:pointer;
+	text-align: center;
+	object-position: center;
+
+
+
+}
+
+
+
+
+
+/*. ------------------ STOP WATCH FROM EXERCISE  
+
+*/
+
+
+
+
+.display {
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: green;
+}
+
+#wrapper {
+  /* Box-model */
+  width: 400px;
+
+  /* Positioning */
+  margin: 10px auto 0;
+
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px #cbcbcb;
+
+
+	
+
+}
+
+/*. ------------------ PROGRESS BAR
+
+
+* {
+
+box-sizing: border-box;
+
+*/
+
+}
+
+
+
+
+

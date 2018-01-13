@@ -3,16 +3,18 @@
 <head>
 	<title> CHICAGO BULLS TRIVIA </title>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 </head>
 
 <script type="text/javascript">
 
-	window.addEventListener("load" , function() {
-		var loadscreen = document.getElementById("loadscreen");
-		//document.body.removeChild(loadscreen);
+	// window.addEventListener("load" , function() {
+	// 	var loadscreen = document.getElementById("loadscreen");
+	// 	//document.body.removeChild(loadscreen);
 
-	});
+	// });
 
 </script>
 
@@ -21,13 +23,13 @@
 
 
 <body>
-	
+<!--	
 <div   id="loadscreen">  
-		<div > <img src = "images/bulls2.jpg" width = "800px" height ="800px"  id="loadscreen2" >
-			<img src = "images/bulls3.jpg" width = "800px" height ="800px" 
+		<div > <img src = "assets/images/bulls2.jpg" width = "800px" height ="800px"  id="loadscreen2" >
+			<img src = "assets/images/bulls3.jpg" width = "800px" height ="800px" 
 			id="loadscreen3">
-			<img src = "images/bulls.jpg" width = "800px" height ="800px"  id="loadscreen4" >
-			<img src = "images/bulls4.jpg" width = "800px" height ="800px" 
+			<img src = "assets/images/bulls.jpg" width = "800px" height ="800px"  id="loadscreen4" >
+			<img src = "assets/images/bulls4.jpg" width = "800px" height ="800px" 
 			id="loadscreen5">
 			
 			
@@ -37,7 +39,7 @@
 
 </div>
 	
-
+-->
 <div class= "grid">
 	<div id="quiz">
 		<h1>BULLS TRIVIA</h1>
@@ -51,12 +53,18 @@
 			<button id="btn1"><span id="choice1"></span></button>
 			<button id="btn2"><span id="choice2"></span></button>
 			<button id="btn3"><span id="choice3"></span></button>
+			<button id="btn4"><span id="choice4">SKIP</span></button>
+
 
 		</div>
 		<div>
-
-			<p id= "skip" onclick = " myfunction() "> SKIP  >> </p>
-
+			<!--
+			
+			<button id="btnskip" onclick = " myfunction() " align = "center"> SKIP  </button>
+		
+			
+			<center><p id= "btnskip" onclick = " myfunction() "> SKIP  >> </p></center>
+			-->
 		<div>
 
 		<hr style="margin-top: 10px">
@@ -64,24 +72,24 @@
 
 		<footer>
 
-			<p id="progress"> Questions x of y</p>
 
+			<p id="progress"> Questions x of y</p>
+			<br>
 			<div id = "wrapper">
 
-      				<div id="timer" class = "display" >00:00</div>
+      				<div id= "timer" class = "display" >00:00</div>
       		</div>
 
-
-		
-			
-		     <p id="copyright"> Copyrighted: 
-			 Oscar D. Buenavidez Jr.</p>
-		
-			
-
 		</footer>
+		<br>
+				
 
 	</div>
+	<div>
+			<div id="copyright"> Copyrighted: 
+			 Oscar D. Buenavidez Jr. Northwestern University (Evanston Campus, 2017-18)</div>
+	</div>
+		
 
 
 
@@ -95,22 +103,34 @@
 -->
 
 
+ 
+ <!-- 
+ 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ -->
+<!-- <script>
+	
+$("#btn6").on("click", alert("this button 6") );
 
 
+</script>
+ -->
 
 
+<script src = "assets/javascript/timer.js"></script>
+<script src= "assets/javascript/question.js"></script>
+<script src= "assets/javascript/quiz_controller.js"></script>
+<script src= "assets/javascript/app.js"></script>
 
 
-
-<script src = "timer.js"></script>
-<script src="question.js"></script>
-<script src="quiz_controller.js"></script>
-<script src="app.js"></script>
 
 <script>
 
-$ (function() {
+
+</script>
+
+<!--
+/*$ (function() {
 	
    
     	$("#loadscreen2").show(1000).slideUp(1000).hide(1000);
@@ -156,14 +176,34 @@ $ (function() {
 function myfunction(){
 //var skip = document.getElementById("skip");
 //skip.innerHTML  = "hello";
- populate();
- skipcounter++;
  
+ skipcounter++;
+ populate();
+ alert();
+
  
 }
 
+/*
+$(function() {
+	$ ("#btn6").on("click", alert());
 
-</script>
+
+});
+*/
+
+/*
+$(function () {
+	$("btn7").on("click" , alert() );
+
+
+});
+
+*/
+
+-->
+
+
 
 
 

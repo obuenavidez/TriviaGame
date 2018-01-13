@@ -1,4 +1,4 @@
-var seconds = 120 ;
+var seconds = 30 ;
 function secondPassed(){
 	var minutes = Math.round(( seconds - 30) / 60);
 	var remainingSeconds = seconds % 60;
@@ -22,4 +22,4 @@ function secondPassed(){
 
 }
 
-var countdownTimer = setInterval('secondPassed()',2000);
+var countdownTimer = setInterval('secondPassed()',100);

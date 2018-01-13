@@ -11,31 +11,36 @@ function Quiz(questions) {
 Quiz.prototype.getQuestionIndex = function() {
 
 	return this.questions[this.questionIndex];
+	//alert(this.questionIndex);
 
 }
 
 Quiz.prototype.isEnded = function() {
 	return this.questions.length === this.questionIndex;
+	alert();
 
 }
-
 Quiz.prototype.guess = function(answer) {
+	// testing values :)
+	//var x =  this.questionIndex().correctAnswer(choice) ;
+	
+	
+	 
 
-	//this.questionIndex++;
-	if  (this.getQuestionIndex().correctAnswer(answer)  == " " ) {
-		this.score2++;
+	
+	
 
-
-	}
-
-
+	
 	if(this.getQuestionIndex().correctAnswer(answer)) {
-		this.score++;
 
+		this.score++;
+		
 	}
-	else {
+	else  if ((!this.getQuestionIndex().correctAnswer(answer)) && (answer !== "SKIP")  ){
 
 		this.score1++;
+		
+
 	}
 	
 	this.questionIndex++;

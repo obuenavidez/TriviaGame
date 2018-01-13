@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> blinking text</title>
+
+
+	<script >
+			function blink() {
+				document.getElementById("blinkingtext").innerHTML = "";
+				setTimeout("appear()", 500);
+
+			}
+
+			function appear() {
+				document.getElementById("blinkingtext").innerHTML = "Blink";
+				setTimeout("blink()", 500);
+
+			}
+
+
+
+
+
+	</script>
+
+</head>
+<body onload = "blink()">
+
+<p  id = "blinkingtext"> Blinking Text </p>
+</body>
+ </html>
